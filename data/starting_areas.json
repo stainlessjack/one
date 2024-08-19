@@ -1,0 +1,67 @@
+[
+    {
+        "name": "player",
+        "zones": [
+            {
+                "name": "hand",
+                "cards": []
+            },
+            {
+                "name": "token",
+                "gold": 0,
+                "prestige": 0
+            },
+            {
+                "name": "opportunity",
+                "opportunities": []
+            },
+            {
+                "name": "resource",
+                "resources": []
+            }
+        ]
+    },
+    {
+        "name": "market",
+        "zones": [
+            {
+                "name": "opportunity",
+                "opportunities": []
+            },
+            {
+                "name": "deck",
+                "cards": []
+            }
+        ]
+    },
+    {
+        "name": "workyard",
+        "zones": [
+            {
+                "name": "deck",
+                "cards": []
+            },
+            {
+                "name": "opportunity",
+                "opportunities": []
+            }
+        ]
+    },
+    {
+        "name": "world",
+        "zones": [
+            {
+                "name": "day_deck",
+                "cards": []
+            },
+            {
+                "name": "opportunity",
+                "opportunities": []
+            },
+            {
+                "name": "graveyard",
+                "game_elements": []
+            }
+        ]
+    }
+]

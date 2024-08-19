@@ -1,0 +1,76 @@
+[
+    {
+        "type": "opportunity",
+        "subtype": "open",
+        "tags": ["permanent"],
+        "name": "Rest",
+        "description": "Take a break and rest.",
+        "availability": "private",
+        "location": "player_area",
+        "clock": "0",
+        "consequences": {
+            "claimed": {
+                "actions": [
+                    {
+                        "name": "restore_energy"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "opportunity",
+        "subtype": "open",
+        "tags": ["permanent"],
+        "name": "Labor",
+        "description": "Work hard and earn money.",
+        "availability": "public",
+        "location": "workyard",
+        "clock": "0",
+        "cost": {
+            "energy": 2
+        },
+        "consequences": {
+            "claimed": {
+                "gold": 5
+            },
+            "unclaimed": {
+                "actions": [
+                    {
+                        "name": "add_bonus_token"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "opportunity",
+        "subtype": "open",
+        "tags": ["permanent"],
+        "name": "Peruse",
+        "description": "Look around and see what you can find.",
+        "availability": "public",
+        "location": "market",
+        "clock": "0",
+        "cost": {
+            "energy": 1
+        },
+        "consequences": {
+            "claimed": {
+                "actions": [
+                    {
+                        "name": "discover_opportunity",
+                        "target": "market"
+                    }
+                ]
+            },
+            "unclaimed": {
+                "actions": [
+                    {
+                        "name": "add_bonus_token"
+                    }
+                ]
+            }
+        }
+    }
+]

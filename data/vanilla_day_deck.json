@@ -1,0 +1,360 @@
+[
+    {
+        "type": "opportunity",
+        "subtype": "contest",
+        "name": "A Contest of Strength",
+        "description": "Compete in a workout tournament to prove your strength!",
+        "availability": "public",
+        "location": "world",
+        "clock": "1",
+        "obstacles": [
+            {
+                "name": "Arm Wrestling",
+                "type": "physical"
+            },
+            {
+                "name": "Push Ups",
+                "type": "physical"
+            },
+            {
+                "name": "Sit Ups",
+                "type": "physical"
+            }
+        ],
+        "consequences": {
+            "claimed": {
+                "prestige": 2,
+                "actions": [
+                    {
+                        "name": "add_ally",
+                        "target": "claiming_player_hand",
+                        "ally": "Aspiring Warrior"
+                    }
+                ]
+            },
+            "unclaimed": {
+                "actions": [
+                    {
+                        "name": "add_opportunity",
+                        "target": "day_deck",
+                        "opportunity": "A Contest of Strength"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "opportunity",
+        "subtype": "challenge",
+        "name": "Read the Runes",
+        "description": "Help an explorer decipher an ancient script.",
+        "availability": "public",
+        "location": "world",
+        "clock": "3",
+        "power_threshold": {
+            "mental": 10
+        },
+        "consequences": {
+            "claimed": {
+                "prestige": 1,
+                "gold": 6,
+                "actions": [
+                    {
+                        "name": "add_opportunity",
+                        "target": "claiming_player_opportunities_zone",
+                        "opportunity": "Journey to the Catacombs"
+                    },
+                    {
+                        "name": "add_ally",
+                        "target": "claiming_player_hand",
+                        "ally": "Foolish Explorer"
+                    }
+                ]
+            },
+            "unclaimed": {
+                "actions": [
+                    {
+                        "name": "add_opportunity",
+                        "target": "day_deck",
+                        "opportunity": "Journey to the Catacombs"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "opportunity",
+        "subtype": "open",
+        "name": "Support the Laborers",
+        "description": "Help the community by supplying the laborers with food and water.",
+        "availability": "public",
+        "location": "workyard",
+        "clock": "0",
+        "cost": {
+            "gold": 5
+        },
+        "consequences": {
+            "claimed": {
+                "prestige": 1,
+                "actions": [
+                    {
+                        "name": "add_object",
+                        "target": "claiming_player_resource_zone",
+                        "object": "Leftovers"
+                    }
+                ]
+            },
+            "unclaimed": {
+                "actions": [
+                    {
+                        "name": "add_opportunity",
+                        "target": "day_deck",
+                        "opportunity": "A Death at the Workyard"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "opportunity",
+        "subtype": "contest",
+        "name": "Back-Alley Brawl",
+        "description": "Local thugs are hosting a brawl in the back alleys. Prove you’re the toughest by taking on the reigning champ.",
+        "availability": "public",
+        "location": "world",
+        "clock": "1",
+        "obstacles": [
+            {
+                "name": "Bare-Knuckle Boxing",
+                "type": "physical"
+            },
+            {
+                "name": "Dirty Fighting",
+                "type": "physical"
+            },
+            {
+                "name": "Crowd Control",
+                "type": "social"
+            }
+        ],
+        "consequences": {
+            "claimed": {
+                "prestige": 1,
+                "gold": 3,
+                "actions": [
+                    {
+                        "name": "add_ally",
+                        "target": "claiming_player_hand",
+                        "ally": "Brawling Partner"
+                    }
+                ]
+            },
+            "unclaimed": {
+                "actions": [
+                    {
+                        "name": "add_opportunity",
+                        "target": "day_deck",
+                        "opportunity": "Revenge of the Defeated"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "opportunity",
+        "subtype": "contest",
+        "name": "Street Race",
+        "description": "A high-stakes race through the winding streets of the city. Speed and nerves will determine the winner.",
+        "availability": "public",
+        "location": "world",
+        "clock": "2",
+        "obstacles": [
+            {
+                "name": "Navigating Tight Corners",
+                "type": "physical"
+            },
+            {
+                "name": "Dodging Traffic",
+                "type": "physical"
+            },
+            {
+                "name": "Sabotage",
+                "type": "mental"
+            }
+        ],
+        "consequences": {
+            "claimed": {
+                "prestige": 2,
+                "gold": 4
+            },
+            "unclaimed": {
+                "actions": [
+                    {
+                        "name": "add_opportunity",
+                        "target": "day_deck",
+                        "opportunity": "The Aftermath"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "opportunity",
+        "subtype": "contest",
+        "name": "Drinking Contest",
+        "description": "Out-drink the locals at the tavern to win their respect and a hefty purse. Just try to stay on your feet.",
+        "availability": "public",
+        "location": "world",
+        "clock": "1",
+        "obstacles": [
+            {
+                "name": "Hold Your Liquor",
+                "type": "physical"
+            },
+            {
+                "name": "Outwit the Competition",
+                "type": "mental"
+            },
+            {
+                "name": "Bribe the Bartender",
+                "type": "social"
+            }
+        ],
+        "consequences": {
+            "claimed": {
+                "prestige": 1,
+                "gold": 2
+            },
+            "unclaimed": {
+                "actions": [
+                    {
+                        "name": "add_opportunity",
+                        "target": "day_deck",
+                        "opportunity": "Bar Fight"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "opportunity",
+        "subtype": "challenge",
+        "name": "Local Heirloom",
+        "description": "A villager’s family heirloom has been stolen. Help track down the thief and return the precious item.",
+        "availability": "public",
+        "location": "world",
+        "clock": "2",
+        "power_threshold": {
+            "mental": 8
+        },
+        "consequences": {
+            "claimed": {
+                "prestige": 1,
+                "gold": 3,
+                "actions": [
+                    {
+                        "name": "add_ally",
+                        "target": "claiming_player_hand",
+                        "ally": "Grateful Villager"
+                    }
+                ]
+            },
+            "unclaimed": {
+                "actions": [
+                    {
+                        "name": "add_opportunity",
+                        "target": "day_deck",
+                        "opportunity": "The Thief’s Return"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "opportunity",
+        "subtype": "challenge",
+        "name": "Lost Shipment",
+        "description": "A merchant’s shipment has gone missing. Locate the goods and bring them back before the deadline.",
+        "availability": "public",
+        "location": "workyard",
+        "clock": "3",
+        "power_threshold": {
+            "physical": 7
+        },
+        "consequences": {
+            "claimed": {
+                "prestige": 2,
+                "gold": 5
+            },
+            "unclaimed": {
+                "actions": [
+                    {
+                        "name": "add_opportunity",
+                        "target": "day_deck",
+                        "opportunity": "The Merchant's Desperation"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "opportunity",
+        "subtype": "challenge",
+        "name": "Guard Duty",
+        "description": "A local merchant needs protection for the night. Stand guard and ensure nothing goes wrong.",
+        "availability": "public",
+        "location": "world",
+        "clock": "2",
+        "power_threshold": {
+            "physical": 6
+        },
+        "consequences": {
+            "claimed": {
+                "prestige": 1,
+                "gold": 4
+            },
+            "unclaimed": {
+                "actions": [
+                    {
+                        "name": "add_opportunity",
+                        "target": "day_deck",
+                        "opportunity": "Robbery Under the Moonlight"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "opportunity",
+        "subtype": "open",
+        "name": "Deliver Supplies",
+        "description": "The local clinic is running low on essential supplies. Deliver the needed goods to support the community.",
+        "availability": "public",
+        "location": "workyard",
+        "clock": "0",
+        "cost": {
+            "gold": 3
+        },
+        "consequences": {
+            "claimed": {
+                "prestige": 1,
+                "actions": [
+                    {
+                        "name": "add_object",
+                        "target": "claiming_player_resource_zone",
+                        "object": "First Aid Kit"
+                    }
+                ]
+            },
+            "unclaimed": {
+                "actions": [
+                    {
+                        "name": "add_opportunity",
+                        "target": "day_deck",
+                        "opportunity": "A Call for Help"
+                    }
+                ]
+            }
+        }
+    }
+]

@@ -1,0 +1,164 @@
+[
+    {
+        "name": "Unstoppable Force",
+        "cost": {
+            "energy": 6
+        },
+        "power": {
+            "physical": 6
+        }
+    },
+    {
+        "name": "Masterful Influence",
+        "cost": {
+            "energy": 6
+        },
+        "power": {
+            "social": 12
+        }
+    },
+    {
+        "name": "Omniscience",
+        "cost": {
+            "energy": 6
+        },
+        "power": {
+            "mental": 18
+        }
+    },
+    {
+        "name": "Strong Punch",
+        "cost": {
+            "energy": 1
+        },
+        "power": {
+            "physical": 1
+        }
+    },
+    {
+        "name": "Persuasive Talk",
+        "cost": {
+            "energy": 1
+        },
+        "power": {
+            "social": 2
+        }
+    },
+    {
+        "name": "Quick Wit",
+        "cost": {
+            "energy": 1
+        },
+        "power": {
+            "mental": 3
+        }
+    },
+    {
+        "name": "Powerful Strike",
+        "cost": {
+            "energy": 2
+        },
+        "power": {
+            "physical": 2
+        }
+    },
+    {
+        "name": "Charming Smile",
+        "cost": {
+            "energy": 2
+        },
+        "power": {
+            "social": 4
+        }
+    },
+    {
+        "name": "Keen Insight",
+        "cost": {
+            "energy": 2
+        },
+        "power": {
+            "mental": 6
+        }
+    },
+    {
+        "name": "Mighty Blow",
+        "cost": {
+            "energy": 3
+        },
+        "power": {
+            "physical": 3
+        }
+    },
+    {
+        "name": "Influential Speech",
+        "cost": {
+            "energy": 3
+        },
+        "power": {
+            "social": 6
+        }
+    },
+    {
+        "name": "Brilliant Idea",
+        "cost": {
+            "energy": 3
+        },
+        "power": {
+            "mental": 9
+        }
+    },
+    {
+        "name": "Crushing Force",
+        "cost": {
+            "energy": 4
+        },
+        "power": {
+            "physical": 4
+        }
+    },
+    {
+        "name": "Compelling Argument",
+        "cost": {
+            "energy": 4
+        },
+        "power": {
+            "social": 8
+        }
+    },
+    {
+        "name": "Genius Plan",
+        "cost": {
+            "energy": 4
+        },
+        "power": {
+            "mental": 12
+        }
+    },
+    {
+        "name": "Devastating Attack",
+        "cost": {
+            "energy": 5
+        },
+        "power": {
+            "physical": 5
+        }
+    },
+    {
+        "name": "Dominating Presence",
+        "cost": {
+            "energy": 5
+        },
+        "power": {
+            "social": 10
+        }
+    },
+    {
+        "name": "Profound Knowledge",
+        "cost": {
+            "energy": 5
+        },
+        "power": {
+            "mental": 15
+        }
+    }
+]
