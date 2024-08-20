@@ -1,6 +1,6 @@
 [
     {
-        "name": "player",
+        "name": "actor",
         "zones": [
             {
                 "name": "hand",
