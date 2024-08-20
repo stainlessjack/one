@@ -4,7 +4,7 @@
         "subtype": "open",
         "tags": ["permanent"],
         "name": "Rest",
-        "description": "Take a break and rest.",
+        "description": "Take a break and sleep.",
         "availability": "private",
         "location": "player_area",
         "clock": "0",
