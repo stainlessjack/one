@@ -1,4 +1,4 @@
-# Pain Rules
+# Game Rules
 Welcome to our digital card game! Below you'll find the complete ruleset, including descriptions of the game flow, elements, and areas.
 
 ## Table of Contents
